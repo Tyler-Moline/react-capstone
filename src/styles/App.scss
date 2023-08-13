@@ -1,0 +1,16 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+@import "./common.scss";
+@import "./navbar.scss";
+@import "./footer.scss";
+@import "./home.scss";
+@import "./products.scss";
+@import "./cart.scss";
+
+.App {
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
