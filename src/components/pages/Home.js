@@ -4,7 +4,7 @@ import PhotoThree from "../../images/s-b-vonlanthen-D75_5tWZDQ4-unsplash.jpg";
 
 export default function Home() {
   return (
-    <div>
+    <div className="container">
       <header>
         <div className=" header-img-div fadein">
           <img

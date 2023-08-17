@@ -1,0 +1,24 @@
+.individual-product {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  img {
+    width: 20vw;
+  }
+
+  button {
+    width: 20vw;
+    height: 5vh;
+    background-color: $jasper;
+    transition: ease-in-out 0.5s;
+    border: none;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: $tangerine;
+      cursor: pointer;
+    }
+  }
+}

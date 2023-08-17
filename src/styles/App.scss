@@ -6,6 +6,8 @@
 @import "./home.scss";
 @import "./products.scss";
 @import "./cart.scss";
+@import "./indivudual-product-page.scss";
+@import "./contact-us.scss";
 
 .App {
   text-align: center;
@@ -13,4 +15,8 @@
     text-decoration: none;
     color: white;
   }
+}
+
+.container {
+  height: 73.5vh;
 }

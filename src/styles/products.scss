@@ -29,11 +29,16 @@
     margin-bottom: 30px;
 
     .product-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
       width: 25vw;
-      height: 55vh;
+      height: 65vh;
       background-color: $apricot;
       border-radius: 10px;
       margin: 10px;
+      overflow: hidden;
       transition: ease-in-out 0.5s;
 
       &:hover {
@@ -42,9 +47,13 @@
         cursor: pointer;
       }
       img {
-        width: auto;
-        height: 140px;
+        width: 5vw;
+        height: auto;
         margin: 10px;
+      }
+
+      .button-wrapper {
+        margin-bottom: 10px;
       }
 
       .cart-btn {
@@ -55,6 +64,7 @@
         border: 1px solid $dark-cyan;
         color: white;
         transition: ease-in-out 0.5s;
+        margin: 3px;
 
         &:hover {
           background-color: $jasper;

@@ -24,7 +24,7 @@ export default function Cart({
           Checkout
         </button>
         <div>
-          <p>Subtotal: ${Math.floor(price)}</p>
+          <p>Subtotal: ${price}</p>
           <p>Shipping: $100.00</p>
           <p>Tax: $ {Math.floor(tax)}</p>
           <p>Total: ${Math.floor(price + 100.0 + tax)}</p>

@@ -12,6 +12,7 @@ import Cart from "./components/pages/Cart";
 import Products from "./components/pages/Products";
 import Navbar from "./components/navigation/NavBar";
 import Footer from "./components/navigation/Footer";
+import Product from "./components/pages/Product";
 import "./styles/App.scss";
 
 export default function App() {
@@ -87,6 +88,16 @@ export default function App() {
           <Route path="/contact-us" component={ContactUs} />
           <Route path="/about-us" component={AboutUs} />
           <Route
+            path="/products/:slug"
+            render={(routeProps) => (
+              <Product
+                allProducts={products}
+                addToCart={addToCart}
+                {...routeProps}
+              />
+            )}
+          />
+          <Route
             path="/products"
             render={() => (
               <Products
@@ -96,6 +107,7 @@ export default function App() {
               />
             )}
           />
+
           <Route
             path="/cart"
             render={() => (
