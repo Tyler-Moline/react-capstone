@@ -1,13 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Filter from "../../images/filter-solid.svg";
+import { successfulToast } from "../../util/Toast";
 
 export default function Products(props) {
   const { allProducts, addToCart } = props;
 
   const [result, setResult] = useState([]);
   const [filter, setFilter] = useState("");
-  // const [filterList, setFilter] = useState("");
 
   const trunk = (text) => {
     let smallerString;
@@ -45,25 +44,13 @@ export default function Products(props) {
       <h1>Products</h1>
       <div className="search-area">
         <input
+          placeholder="Search Items Here"
           className="search-bar"
           type="text"
           onChange={(e) => search(e.target.value)}
         />
-        {/* <img
-          className="filter"
-          src={Filter}
-          alt="filter"
-          onClick={() => {
-          
-          }
 
-          }
-        /> */}
-
-        <select
-          className="filter-options"
-          onChange={(e) => setFilter(e.target.value)}
-        >
+        <select onChange={(e) => setFilter(e.target.value)}>
           <option value="default">Filter Options</option>
           <option value="1">A to Z</option>
           <option value="option2">Z to A</option>
@@ -83,7 +70,10 @@ export default function Products(props) {
                   <div className="button-wrapper">
                     <button
                       className="cart-btn"
-                      onClick={() => addToCart(product.id)}
+                      onClick={() => {
+                        addToCart(product.id);
+                        successfulToast("Item added to cart");
+                      }}
                     >
                       Add to cart
                     </button>

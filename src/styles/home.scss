@@ -6,7 +6,7 @@
   margin: auto;
   img {
     width: 100%;
-    height: 30.5rem;
+    height: 32.5rem;
     position: absolute;
     left: 0;
     top: 0;
@@ -62,4 +62,46 @@
 }
 #f3 {
   -webkit-animation-delay: -8s;
+}
+
+.main-content {
+  position: absolute;
+  top: 55vh;
+  z-index: 10;
+  left: 20%;
+  display: flex;
+  align-items: flex-end;
+
+  .img-wrapper {
+    background-color: $apricot;
+    justify-self: center;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    box-shadow: 0px 0px 20px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 20vw;
+    }
+  }
+
+  .word-wrapper {
+    margin-top: -30px;
+  }
+}
+
+.intro-paragraph {
+  margin-top: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    width: 60%;
+    border: 1px solid $dark-cyan;
+    border-radius: 10px;
+    padding: 35px;
+  }
 }

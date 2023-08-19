@@ -8,12 +8,19 @@
 @import "./cart.scss";
 @import "./indivudual-product-page.scss";
 @import "./contact-us.scss";
-
+@import "./mobile-styles.scss";
 .App {
   text-align: center;
+  font-family: "Coming Soon", cursive;
   a {
     text-decoration: none;
     color: white;
+    font-family: "Coming Soon", cursive;
+  }
+  input,
+  button,
+  select {
+    font-family: "Coming Soon", cursive;
   }
 }
 
