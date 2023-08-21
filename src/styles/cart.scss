@@ -6,7 +6,7 @@
   //   margin-bottom: 10vh;
 
   .item {
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -56,7 +56,8 @@
 
   .checkout-spot {
     position: sticky;
-    top: 160px;
+    top: 190px;
+    margin-top: 30px;
     margin-right: 10px;
     width: 200px;
 

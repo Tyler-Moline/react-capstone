@@ -1,3 +1,5 @@
+import { successfulToast } from "../../util/Toast";
+
 export default function Product(props) {
   function renderSingleProduct() {
     return props.allProducts.map((item) => {
@@ -10,7 +12,10 @@ export default function Product(props) {
             <p>${item.price}</p>
             <button
               className="cart-btn"
-              onClick={() => props.addToCart(item.id)}
+              onClick={() => {
+                props.addToCart(item.id);
+                successfulToast("Item added to cart");
+              }}
             >
               Add to cart
             </button>

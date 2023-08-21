@@ -11,7 +11,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-center">
-        <h4>ADDRESS"S GO HERE</h4>
+        <h4>1 E 2 N Crazy Circle</h4>
       </div>
 
       <div className="footer-right">
