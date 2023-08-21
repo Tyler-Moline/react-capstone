@@ -1,4 +1,10 @@
 @media screen and (max-width: 430px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   .container {
     overflow-x: hidden;
     width: 100%;
@@ -33,6 +39,16 @@
         padding-left: 10px;
       }
     }
+  }
+
+  .home-page {
+    height: 2200px;
+  }
+
+  .intro-paragraph {
+    height: auto;
+    position: absolute;
+    margin-top: 620px;
   }
 
   .main-content {

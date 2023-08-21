@@ -5,8 +5,8 @@ import logo from "../../images/logo.png";
 
 export default function Home() {
   return (
-    <div className="container">
-      <header>
+    <div className="container home-page">
+      <div>
         <div className=" header-img-div fadein">
           <img
             id="f3"
@@ -17,7 +17,7 @@ export default function Home() {
           <img id="f2" className="header-img-2" src={PhotoTwo} alt="" />
           <img id="f1" className="header-img-3" src={PhotoThree} alt="" />
         </div>
-      </header>
+      </div>
       <div className="main-content">
         <div className="img-wrapper">
           <img src={logo} alt="logo" />

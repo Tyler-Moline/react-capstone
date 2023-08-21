@@ -29,7 +29,6 @@ export default function App() {
       })
       .catch((error) => console.error(error));
 
-    console.log("you ran the fetch");
     return () => controller.abort();
   }, []);
 
@@ -120,7 +119,6 @@ export default function App() {
             )}
           />
         </Switch>
-
         <Footer />
       </Router>
     </div>

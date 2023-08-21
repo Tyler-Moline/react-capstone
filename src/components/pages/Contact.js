@@ -18,7 +18,7 @@ export default function ContactUs() {
   };
 
   return (
-    <div className="container">
+    <div className="container contact-container">
       <div className="form-container">
         <h2>Please reach out to us!</h2>
         <form onSubmit={(e) => handleSubmit(e)}>
