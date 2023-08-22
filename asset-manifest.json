@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-capstone/static/css/main.3e2e0b3a.css",
+    "main.js": "/react-capstone/static/js/main.e06f2349.js",
+    "static/media/heidi-fin-2TLREZi7BUg-unsplash.jpg": "/react-capstone/static/media/heidi-fin-2TLREZi7BUg-unsplash.b3a0e5d9b8168a04e9de.jpg",
+    "static/media/bruno-kelzer-LvySG1hvuzI-unsplash.jpg": "/react-capstone/static/media/bruno-kelzer-LvySG1hvuzI-unsplash.4a217f728ad86edf7bd3.jpg",
+    "static/media/mike-petrucci-c9FQyqIECds-unsplash.jpg": "/react-capstone/static/media/mike-petrucci-c9FQyqIECds-unsplash.e4f58042dfe2cb331db3.jpg",
+    "static/media/logo.png": "/react-capstone/static/media/logo.666a04f12d6608d3761b.png",
+    "static/media/instagram.svg": "/react-capstone/static/media/instagram.849150f40cd137617202962a2e728c4d.svg",
+    "static/media/twitter.svg": "/react-capstone/static/media/twitter.e42d106c22cfc1d9eb3666486d993987.svg",
+    "index.html": "/react-capstone/index.html",
+    "static/media/cart-shopping-solid.svg": "/react-capstone/static/media/cart-shopping-solid.d4c309bdf647339dee3c508977bff619.svg",
+    "static/media/facebook.svg": "/react-capstone/static/media/facebook.8a16e81e934d69b823501bd40008dc66.svg",
+    "main.3e2e0b3a.css.map": "/react-capstone/static/css/main.3e2e0b3a.css.map",
+    "main.e06f2349.js.map": "/react-capstone/static/js/main.e06f2349.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e2e0b3a.css",
+    "static/js/main.e06f2349.js"
+  ]
+}
