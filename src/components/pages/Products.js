@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+
 import { successfulToast } from "../../util/Toast";
 
 export default function Products(props) {
